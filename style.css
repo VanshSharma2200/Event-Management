@@ -277,6 +277,34 @@ section{
     color: var(--main--color);
 }
 
+/* payment */
+.payment-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 12px;
+  }
+  
+  .payment-form .inputBox {
+    margin-bottom: 1.5rem;
+  }
+  
+  .payment-form .inputBox label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .payment-form .inputBox input,
+  .payment-form .inputBox select {
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+/* payment /*  
+
 
 
 
