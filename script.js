@@ -29,6 +29,8 @@ var swiper = new Swiper(".home-slider", {
         disableOnInteraction:false,
     }
   });
+
+  // payment gateway integration
   document.getElementById('paymentForm').addEventListener('submit', function (e) {
     e.preventDefault();
 
