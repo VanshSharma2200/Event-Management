@@ -87,7 +87,7 @@ section{
     padding: 1.5rem 9%; 
 }
 .header .logo{
-    font-weight: bolder;`
+    font-weight: bolder;
     color: #fff;
     font-size: 2.5rem;
 }
@@ -274,6 +274,70 @@ section{
 }
 
 .gallery .box-container .box .icons a:hover{
+    color: var(--main--color);
+}
+
+.price .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.price .box-container .box{
+    padding: 2rem 0;
+    background: #333;
+    border-radius: .5rem;
+    text-align: center;  
+}
+
+.price .box-container .box:hover{
+    transform: scale(11.3rem);
+}
+.price .box-container .box .title{
+    background-color: var(--main--color);
+    color: #fff;
+    padding: 1.5rem 0;
+    font-size: 2rem;
+}
+.price .box-container .box .amount{
+    color: #fff;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+.price .box-container .box ul{
+    list-style-type: none;
+    padding: 1rem 0;
+}
+.price .box-container .box ul li{
+    font-size: 1.5rem;
+    color: #eee;
+    padding: 1rem 0;
+}
+.price .box-container .box ul li i{
+    color: var(--main--color);
+    padding-right: .5rem;
+}
+.footer{
+    background: #111;
+}
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    gap:1.5rem;
+}
+.footer .box-container .box h3{
+font-size: 2.5rem;
+padding: 1rem 0;
+color: #fff;
+}
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    padding:1rem 0;
+    color: #eee;
+}
+.footer .box-container .box a i{
+    padding-right: .5rem;
     color: var(--main--color);
 }
 
